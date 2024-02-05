@@ -10,6 +10,8 @@ const obj = {
 //동적으로 속성에 접근하고 싶을 때 대괄호 표기법을 사용한다.
 function getValue(obj,key){
     return obj[key];
+
+    //obj.key로는 동작하지 않는다.
 }
 
 //대괄호 표기법을 사용할 때에는 키값에 ''를 감싸주는 것 잊지 말자.

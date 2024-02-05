@@ -18,4 +18,5 @@ console.log(!!NaN);
 console.log(!!{}) //빈 객체는 특이하게도 true한 값이다.
 console.log(!![])
 console.log(!!2);
-
+console.log("이 값은?")
+console.log(!!-1);

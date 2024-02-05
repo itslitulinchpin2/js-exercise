@@ -11,6 +11,9 @@ function add(a=1,b=1){
 const result=add();
 console.log(result)
 
+const result2 = add(3,4)
+console.log("디폴트 아닌 값: ", result2)
+
 //Rest 매개변수 Rest Parameters
 //얼마나 많은 인자가 전달될지 모를때
 function sum(a,b,...numbers){   

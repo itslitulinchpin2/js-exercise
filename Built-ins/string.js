@@ -39,4 +39,6 @@ console.log(space.trim());
 const longText='Get to the point';
 //스페이스별로 문자열을 끊고 싶다면? split 사용
 console.log(longText.split(' '));
+
+//[ 'Get', 'to' ]
 console.log(longText.split(' ',2));
